@@ -1,0 +1,87 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+@media only screen and (min-width: 992px) {
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #ffff;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .tab {
+    overflow: hidden;
+    padding-left: 150px;
+    padding-right: 600px;
+    border: 1px solid #ccc;
+    background-color: #ffff;
+  }
+}
+/* .tab {
+  overflow: hidden;
+  padding-left: 150px;
+  padding-right: 600px;
+  border: 1px solid #ccc;
+  background-color: #ffff;
+} */
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+
+.itms{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.row-1 {
+  overflow: auto;
+  white-space:nowrap;
+  width: 1200px;
+}
+.col-2 {
+  display: inline-block;
+  /* padding-right:20px; */
+  white-space:normal;
+}
+
+.container1{
+  padding-left: 5%;
+  width: 1500px;
+}
+
+
